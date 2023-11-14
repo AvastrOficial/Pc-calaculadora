@@ -24,12 +24,12 @@ Salir del programa:
 Si se selecciona la opción de salir (9), el programa muestra un mensaje de despedida y finaliza la ejecución.
 Este código en C tiene implementadas múltiples funcionalidades y operaciones matemáticas básicas y avanzadas, como resolución de ecuaciones, métodos numéricos y cálculos trigonométricos, que se activan dependiendo de la opción seleccionada por el usuario en los diferentes menús.
 
-imagenes : 
+# imagenes : 
 ![image](https://github.com/AvastrOficial/Pc-calaculadora/assets/91764815/e6eae9d4-8ae8-42a7-be65-7983a349de57)
-opciones avanzadas :
+# opciones avanzadas :
 ![image](https://github.com/AvastrOficial/Pc-calaculadora/assets/91764815/bda777bf-8569-4e90-a884-2b5752592962)
-opciones trigometricas : 
+# opciones trigometricas : 
 ![image](https://github.com/AvastrOficial/Pc-calaculadora/assets/91764815/2e523dce-8fc6-4e65-8e01-d5c575f339fd)
-salida de la calculadora :
+# salida de la calculadora :
 ![image](https://github.com/AvastrOficial/Pc-calaculadora/assets/91764815/21ccf9ca-3809-4ebe-8b6a-6ed87e498810)
 
