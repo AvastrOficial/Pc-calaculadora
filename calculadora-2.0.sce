@@ -10,7 +10,7 @@ texts = [
     "               ■■■■■■■■■□□□□ 80%  "
     "               ■■■■■■■■■■■□□ 90%  " 
     "               ■■■■■■■■■■■■■ 100% "
-    "       CARGA FINALIZADA Animacion echa por Axel aram"
+    "       CARGA FINALIZADA Animacion echa por AVASTR"
   
 ];
 
