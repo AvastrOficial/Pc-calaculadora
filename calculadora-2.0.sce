@@ -68,7 +68,7 @@ printf("▐▓█░░▄░░▄▀░░█▓▌░█▄▄▄█░\n");
 printf("▐▓█▄▄▄▄▄▄▄▄▄█▓▌░█████░\n");
 printf("░░░░▄▄███▄▄░░░░░█████░\n");
 printf("Saliendo de la calculadora. ¡Adiós! \n");
-printf("creado por : Axel aram verlage aceves \n");
+printf("creado por : AVASTR \n");
 
  
     break;
