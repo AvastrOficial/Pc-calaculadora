@@ -1,12 +1,38 @@
 clear;
 clc;
 
+texts = [
+    "       INICIANDO CARGA USO DE CALCULADORA"
+    "               □□□□□□□□□□□□□ 0% "
+    "               ■■■□□□□□□□□□□ 10%  "
+    "               ■■■■■□□□□□□□□ 20%  "
+    "               ■■■■■■■□□□□□□ 60%  "
+    "               ■■■■■■■■■□□□□ 80%  "
+    "               ■■■■■■■■■■■□□ 90%  " 
+    "               ■■■■■■■■■■■■■ 100% "
+    "       CARGA FINALIZADA Animacion echa por Axel aram"
+  
+];
+
+num_lines = size(texts, 1);
+
+for i = 1:num_lines
+    printf('%s\n', texts(i, :))
+    
+    t_start = toc();  // Guarda el tiempo inicial
+    while toc() - t_start < 1  // Espera 3 segundos
+        // Espera hasta que pasen 3 segundos
+    end
+    
+    clc()  // Limpia la consola para mostrar la siguiente línea
+end
+
 while 1
     
 
     
     printf("       ,---------------------------,\n");
-    printf("       |  /---------------------\\ |\n");
+    printf("       |  /---------------------\\  |\n");
     printf("       | | 1. Suma               | |\n");
     printf("       | | 2. Resta              | |\n");
     printf("       | | 3. Multiplicación     | |\n");
@@ -16,7 +42,7 @@ while 1
     printf("       | | 7. Potencia           | |\n");
     printf("       | | 8. Opciones avanzadas | |\n");
     printf("       | | 9. Salir              | |\n");
-    printf("       |  \\_____________________/ |\n");
+    printf("       |  \\_____________________/  |\n");
     printf("       |___________________________|\n");
     printf("       ,\\_____     []     _______/,\n");
     printf("          ,___/______________\\_________________.\n");
@@ -42,7 +68,7 @@ printf("▐▓█░░▄░░▄▀░░█▓▌░█▄▄▄█░\n");
 printf("▐▓█▄▄▄▄▄▄▄▄▄█▓▌░█████░\n");
 printf("░░░░▄▄███▄▄░░░░░█████░\n");
 printf("Saliendo de la calculadora. ¡Adiós! \n");
-printf("creado por : AVASTROFICIAL \n");
+printf("creado por : Axel aram verlage aceves \n");
 
  
     break;
